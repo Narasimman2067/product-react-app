@@ -46,6 +46,7 @@ padding:5% ;
 }
 .content-div{
   margin-top: 5%;
+  text-transform: capitalize;
 }
 .input-div{
   display:grid;
