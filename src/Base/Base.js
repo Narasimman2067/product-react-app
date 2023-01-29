@@ -1,7 +1,9 @@
+
 import React from 'react';
 
 function Base ({heading,description,children}){
     return(
+        <div>
         <div className="main-cpmponent">
             <header className='head-div'>
                 <h1>{heading}</h1>
@@ -11,8 +13,16 @@ function Base ({heading,description,children}){
                 <div className='children-segment'> 
                {children}
                 </div>
-
             </main>
+           
+        </div>
+        <footer className='footer-div'>
+                <p>
+                😍Thank you to visit this page😍
+               
+                </p>
+             
+            </footer>
         </div>
     )
     }
